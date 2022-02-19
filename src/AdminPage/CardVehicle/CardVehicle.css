@@ -1,0 +1,34 @@
+.card__Vh{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background: linear-gradient(to right,#12ea68,#01b133);
+}
+
+.card .cardVh__Header{
+    width: 100%;
+    padding: 10px;
+}
+
+.card .cardVh__Header .cardVh__Heading{
+    text-align: center !important;
+    color: #fff;
+}
+
+.card .cardVh__Count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card .cardVh__Count .cardVh__Num{
+    font-size: 70px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.card .cardVh__Count .bi-truck{
+    font-size: 100px;
+    opacity: .1;
+    margin-top: -30px;
+}

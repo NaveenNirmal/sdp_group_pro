@@ -1,0 +1,67 @@
+#addnewuser__Container{
+    margin-left: -10px;
+    margin-top: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container-fluid .row .card__User{
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 0;
+}
+
+.container-fluid .row .card__User .card__Header{
+    margin-bottom: 10px;
+}
+
+.container-fluid .row .card__User .card__Form{
+    margin-top: 20px;
+}
+
+.container-fluid .row .card__User .card__Form form .div__Gender label:first-child{
+    display: block;
+}
+
+.container-fluid .row .card__User .card__Form form .div__Gender #empGenderMale,.male,#empGenderFemale,.female{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.container-fluid .row .card__User .card__Form form .div__Gender .male{
+    margin-left: 40px !important;
+    margin-top: 3px;
+}
+
+.container-fluid .row .card__User .card__Form form .div__Gender .female{
+    margin-left: 40px !important;
+}
+
+.container-fluid .row .card__User .card__Form form .form-group .form-label{
+    font-size: 14px;
+}
+
+.error{
+	color:red !important;
+	outline:none !important;
+    font-size: 15px;
+	border-color:red;
+}
+
+.container-fluid .row .card__User .card__Form form .form-group .form-control:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+/* input:invalid[focused="true"] ~ .error{
+    display: block;
+    color:red !important;
+	outline:none !important;
+    font-size: 15px;
+	border-color:red;
+    display: none;
+} */
+/* #saveEmployee{
+    width: 500px;
+    border-radius: 0;
+    margin:30px auto;
+    margin-bottom: 0;
+} */
