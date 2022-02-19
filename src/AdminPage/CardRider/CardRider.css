@@ -1,0 +1,34 @@
+.card__Rd{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background: linear-gradient(to right,#f200ff,#bf00ff);
+}
+
+.card .cardRd__Header{
+    width: 100%;
+    padding: 10px;
+}
+
+.card .cardRd__Header .cardRd__Heading{
+    text-align: center !important;
+    color: #fff;
+}
+
+.card .cardRd__Count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card .cardRd__Count .cardRd__Num{
+    font-size: 70px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.card .cardRd__Count .bi-bicycle{
+    font-size: 100px;
+    opacity: .1;
+    margin-top: -30px;
+}
