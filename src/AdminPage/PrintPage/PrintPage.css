@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+.printpage__Container{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.printpage__Container .printpage__Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.printpage__Container .printpage__Img{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.printpage__Container .printpage__Top .btn__Print{
+    font-size: 15px;
+    background-color: #1e2d42;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+}
+
+.printpage__Container .printpage__Top .btn__Print:focus{
+    background-color: #1e2d42;
+}
+
+.printpage__Container .printpage__Top .bi-printer-fill{
+    margin-left: 10px;
+}
+
+.printpage__Container .printpage__ReciptDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.printpage__Container .printpage__ReciptDetails .printpage__PayerDetails,.printpage__ReciptStatus{
+    padding: 20px;
+}
+
+.printpage__Container .printpage__Body{
+    margin-right: 20px;
+}
+
+.printpage__Container .printpage__ReciptDetails .printpage__PayerDetails .printpage__DetailTitle{
+    font-weight: 900;
+}
+
+.printpage__Container .printpage__ReciptDetails .printpage__PayerDetails .printpage__DetailTitle span{
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.printpage__Container .printpage__ReciptDetails .printpage__ReciptStatus .printpage__DetailTitle{
+    font-weight: 900;
+}
+
+.printpage__Container .printpage__ReciptDetails .printpage__ReciptStatus .printpage__DetailTitle span{
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.printpage__Container .printpage__ReciptDetails .printpage__ReciptStatus .printpage__DetailTitle span.printpage__PaymentStatus{
+    background-color: green;
+    border-radius: 100px;
+    width: 100%;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.printpage__Container .printpage__Body table{
+    text-align: center;
+    border-color: #fff;
+}
+
+.printpage__Container .printpage__Body table tbody tr.printpage__FinalAmount td.finalTotal{
+    font-weight: 600;
+}
+
+.printpage__Container .printpage__Body table tbody tr.printpage__FinalAmount td.finalTotal span.amt{
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.printpage__Container .printpage__Body table tfoot tr.printpage__TableFooter{
+    text-align: left;
+    font-weight: bold;
+}
