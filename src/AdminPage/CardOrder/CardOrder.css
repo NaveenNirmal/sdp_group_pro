@@ -1,0 +1,34 @@
+.card__Od{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background: linear-gradient(to right,#ffae00,#ff8400);
+}
+
+.card .cardOd__Header{
+    width: 100%;
+    padding: 10px;
+}
+
+.card .cardOd__Header .cardOd__Heading{
+    text-align: center !important;
+    color: #fff;
+}
+
+.card .cardOd__Count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card .cardOd__Count .cardOd__Num{
+    font-size: 70px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.card .cardOd__Count .bi-boxes{
+    font-size: 95px;
+    opacity: .1;
+    margin-top: -20px;
+}
