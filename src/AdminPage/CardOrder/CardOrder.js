@@ -9,7 +9,7 @@ function CardOrder() {
           <h4 className="cardOd__Heading">Completed Orders</h4>
         </div>
         <div className="cardOd__Count">
-          <h5 className="cardOd__Num">9999</h5>
+          <h5 className="cardOd__Num">5</h5>
           <i class="bi bi-boxes"></i>
         </div>
       </div>

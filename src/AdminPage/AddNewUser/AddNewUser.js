@@ -77,11 +77,12 @@ function AddNewUser() {
     }).catch(error => {
       const errorCode = error.code;
       const errorMessage = error.message;
+      // console.log(error.code)
     })
 
     await addDoc(collection(fireDb,"employee_data"), state).then(user => {
       const newUser = user.id;
-      toast.success("Success");
+      toast.success("New Employee Created Successfully");
     }).catch(err => {
       toast.error(err)
     })
