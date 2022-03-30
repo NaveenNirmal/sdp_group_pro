@@ -1,0 +1,29 @@
+.removevehicle__Header{
+    margin-top: 20px;
+}
+
+#removevehicle__Container{
+    margin-left: -10px;
+}
+
+#removevehicle__Container .row .col-md-12 .removevehicle__Header .removevehicle__Searching{
+    width: 400px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#removevehicle__Container .row .col-md-12 .removevehicle__Body{
+    padding: 10px !important;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+#removevehicle__Container .row .col-md-12 .table__Vehicle .table{
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.btn__DeleteVehicle{
+    border-radius: 0 !important;
+}
