@@ -1,0 +1,12 @@
+.orderId__Box{
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 0px 5px 5px rgba(219, 219, 219, 0.5);
+}
+
+.order__ID{
+    text-align: center;
+    margin: 0;
+}
